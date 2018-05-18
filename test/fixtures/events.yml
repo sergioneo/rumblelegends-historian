@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wp_user_id: MyString
+  address: MyString
+  message: MyString
+  trx_id: MyString
+
+two:
+  wp_user_id: MyString
+  address: MyString
+  message: MyString
+  trx_id: MyString
