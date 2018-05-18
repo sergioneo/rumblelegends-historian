@@ -1,4 +1,7 @@
 class LoggerController < ApplicationController
+
+  skip_before_action :verify_authenticity_token
+
   def log
   	evn = Event.new
   	evn.wp_user_id = params[:wp_id]
